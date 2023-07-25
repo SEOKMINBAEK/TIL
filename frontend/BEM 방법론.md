@@ -50,3 +50,14 @@ Element는 중첩이 가능하다.
 여기서 block__li를 block__ul의 하위 Element로 보지 않고 똑같은 block의 Element로 취급한다.  
 따라서 css 작성에 캐스케이딩을 여러번 해줄 필요가 없다.  
 
+## Modifier
+Block이나 Element의 속성을 담당한다.
+여기서 속성이란 블록 또는 요소의 외관이나 상태를 변화 가능한 부분.
+Modifier는 두 개의 하이픈(--)로 표시한다.
+```html
+<ul class="tab">
+    <li class="tab__item tab__item--focused">tab 01</li>
+    <li class="tab__item">tab 01</li>
+    <li class="tab__item">tab 01</li>
+</ul>
+```
